@@ -3,3 +3,96 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+body {
+    margin: 0px;
+}
+.top-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: #FFDBAA;
+    width: 100%;
+
+h1 {
+    justify-content: left;
+    border: 2px solid red;
+    color: #553100;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blue;
+    width: 400px;
+    padding-right: 40px;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.nav-btn {
+    background-color: #805215;
+    color: white;
+    padding: 10px;
+}
+
+.middle-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.flight-info {
+    border: 2px solid red;
+    padding: 10px;
+    flex: 1;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 250px;
+    color:white;
+    background-color: #805215;
+    font-size: 18px;
+    margin-left: 15px;
+}
+#jump-btn {
+    margin-top: 34px;
+}
+#letsgo-btn {
+    margin-top: 34px;
+}
+#group-rates-btn {
+    margin-top: 34px;
+}
+#bttm-half {
+    background-color: #D4A76A;
+    border: 2px solid orange;
+    height: 481px;
+}
+.bttm-container {
+    border: 2px solid blue;
+}
