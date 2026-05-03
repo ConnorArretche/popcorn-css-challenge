@@ -9,16 +9,15 @@ body {
 .top-container {
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
     justify-content: space-between;
     background-color: #FFDBAA;
     width: 100%;
+    border-bottom: 1px solid black;
 
 h1 {
     justify-content: left;
-    border: 2px solid red;
     color: #553100;
-    padding-left: 20px;
+    padding-left: 100px;
     padding-bottom: 20px;
 }
 }
@@ -26,9 +25,8 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid blue;
     width: 400px;
-    padding-right: 40px;
+    padding-right: 150px;
     align-items: center;
     padding-left: 40px;
 }
@@ -40,21 +38,24 @@ h1 {
 }
 
 .middle-container {
-    border: 2px solid black;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 90px;
     margin-left: 20px;
     margin-right: 20px;
 
 }
 
 .flight-info {
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
     flex: 1;
+    max-width: 350px;
     background-color: white;
     margin-top: 20px;
+
 }
 
 .info {
@@ -73,26 +74,43 @@ h1 {
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 250px;
+    min-width: 50px;
     color:white;
     background-color: #805215;
     font-size: 18px;
-    margin-left: 15px;
+
 }
-#jump-btn {
-    margin-top: 34px;
-}
-#letsgo-btn {
-    margin-top: 34px;
-}
-#group-rates-btn {
-    margin-top: 34px;
-}
+
 #bttm-half {
     background-color: #D4A76A;
-    border: 2px solid orange;
-    height: 481px;
+    min-height: 100vh;
 }
 .bttm-container {
-    border: 2px solid blue;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 100px;
+    width: 90%;
+
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+}
+#about-text {
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#learn {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: #805215;
+    color: white;
+    font-size: 18px;
 }
